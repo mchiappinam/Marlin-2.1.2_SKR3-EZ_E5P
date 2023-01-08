@@ -1,6 +1,17 @@
+## Configured by mchiappinam to run on a Ender 5 Plus, with a SKR 3 EZ board and TCM2209 drivers and LCD 12864.
+
+If you are planning to use this for your Ender 5 Plus, please make sure to download the first commit (https://github.com/mchiappinam/Marlin-2.1.2_SKR3-EZ_E5P/commit/d66038b283b117eabed91eea00b2cf8d78d40f24), and adjust the DEFAULT_AXIS_STEPS_PER_UNIT setting, located on the Configuration.h file.
+Default values would be #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }
+
+This message will not be updated after the first commit. If you're looking to use the last version, you will need to figure by yourself what's the difference and if your printer can handle it.
+
+<br><br><br>
+<br><br><br>
+
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
-<h1 align="center">Marlin 3D Printer Firmware</h1>
+<h1 align="center">Marlin Firmware</h1>
 
 <p align="center">
     <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
@@ -72,7 +83,7 @@ The Issue Queue is reserved for Bug Reports and Feature Requests. To get help wi
 - [Marlin Discord](https://discord.gg/n5NJ59y) - Discuss issues with Marlin users and developers
 - Facebook Group ["Marlin Firmware"](https://www.facebook.com/groups/1049718498464482/)
 - RepRap.org [Marlin Forum](https://forums.reprap.org/list.php?415)
-- Facebook Group ["Marlin Firmware for 3D Printers"](https://www.facebook.com/groups/3Dtechtalk/)
+- Facebook Group ["Marlin Firmware"](https://www.facebook.com/groups/3Dtechtalk/)
 - [Marlin Configuration](https://www.youtube.com/results?search_query=marlin+configuration) on YouTube
 
 ## Contributors
