@@ -1,4 +1,4 @@
-## Configured by mchiappinam to run on a Ender 5 Plus, with a SKR 3 EZ board and TCM2209 drivers.
+## Configured by mchiappinam to run on a Ender 5 Plus, with a SKR 3 EZ board and TCM2209 drivers and LCD 12864.
 
 If you are planning to use this for your Ender 5 Plus, please make sure to download the first commit (https://github.com/mchiappinam/Marlin-2.1.2_SKR3-EZ_E5P/commit/d66038b283b117eabed91eea00b2cf8d78d40f24), and adjust the DEFAULT_AXIS_STEPS_PER_UNIT setting, located on the Configuration.h file.
 Default values would be #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }
